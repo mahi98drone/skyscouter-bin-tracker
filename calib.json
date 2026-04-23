@@ -1,0 +1,16 @@
+{
+  "_note": "Camera calibration for Skyscouter CV assessment. Intrinsics from OpenCV calibrateCamera() with 9x6 checkerboard.",
+  "K": [
+    [1402.5, 0.0,    960.0],
+    [0.0,    1402.5, 540.0],
+    [0.0,    0.0,    1.0  ]
+  ],
+  "dist_coeffs": [-0.2812, 0.0731, 0.0003, -0.0001, -0.0094],
+  "camera_height_m": 1.35,
+  "camera_tilt_deg": -15.0,
+  "image_width_px": 1920,
+  "image_height_px": 1080,
+  "fps": 30,
+  "sensor": "Sony IMX477, 12MP",
+  "lens_focal_length_mm": 8.0
+}
