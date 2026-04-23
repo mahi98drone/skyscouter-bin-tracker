@@ -614,6 +614,6 @@ Target: <50 ms end-to-end.
 **Automatic disqualifier checks:**
 - ✅ No hardcoded GT coordinates — all waypoint world positions come from `waypoints.json` pixels through `pixel_to_world_ground()`.
 - ✅ Transform derived step-by-step in §5, not a black-box `solvePnP`.
-- ✅ `run.sh` runs end-to-end.
+- ✅ `run.sh` runs end-to-end. use `python track_bin.py --video input.mp4 --calib calib.json --kalman --out-video results/output.mp4`
 - ✅ GPU usage disclosed: none used. CPU-only on a modern x86 laptop.
 # skyscouter-bin-tracker
